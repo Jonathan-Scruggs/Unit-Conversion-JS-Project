@@ -1,0 +1,119 @@
+body {
+    background-color: #1C1C1C;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1C1C1C;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.middle {
+    margin: auto;
+}
+#upper-container {
+    background-color: #6943FF;
+    text-align: center;
+    width: 550px;
+    height: 280px;
+    gap: 0px;
+}
+#upper-header {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    position: relative;
+    top: 25px;
+}
+#user-inputted-number{
+    background-color:#6943FF;
+    border: 2px solid #B295FF;
+    width: 115px;
+    height: 82px;
+    gap: 0px;
+    border-radius: 5px;
+    margin: 30px 200px;
+    /*Input Placeholder Text*/
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+}
+#user-inputted-number::placeholder{
+    color: #FFFFFF; /*To make the placeholder text match the color*/
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*Convert Button*/
+#convert-btn {
+    width: 115px;
+    height: 40px;
+    padding: none;
+    border-radius: 7px;
+    border-color:#FFFFFF;
+    border-bottom-style: none;
+    border-right-style: none;
+    background-color: #FFFFFF;
+    box-shadow: none;
+    /*Button Text*/
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #3D3D3D;
+}
+
+/*Bottom Of Container Stuff*/
+#lower-container {
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+    height: 540px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    padding-top: 35px ; 
+    padding-bottom: 0px ; 
+}
+
+.display{
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 140px;
+    align-items: center;
+    text-align: center;
+}
+.display h3 {
+    margin-top: 35px;
+    color: #5A537B;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.display p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
